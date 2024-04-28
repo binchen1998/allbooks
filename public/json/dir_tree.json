@@ -1,0 +1,3642 @@
+[
+  { "type": "file", "name": "c.py" },
+  { "type": "file", "name": "ocr.py" },
+  { "type": "file", "name": "rename.py" },
+  { "type": "file", "name": "treetojson.py" },
+  { "type": "file", "name": "wrapper.py" },
+  {
+    "type": "directory",
+    "name": "小学数学",
+    "children": [
+      {
+        "type": "directory",
+        "name": "人教版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 118
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 110
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 122
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 118
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 115
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 130
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 124
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 131
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 126
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 122
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 126
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 123
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "冀教版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 113
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 113
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 108
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 112
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 109
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 108
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 120
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 117
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 113
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 113
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 113
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 121
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "北京版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 116
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 102
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 101
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 102
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 106
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 118
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 118
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 100
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 109
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 110
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 100
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "北师大版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 109
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 111
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 113
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 119
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 109
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 125
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 111
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 117
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 119
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 115
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 117
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "苏教版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 115
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 108
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 116
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 116
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 108
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 112
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 124
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 124
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 124
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 120
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 109
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 120
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "西南师大版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 114
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 110
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 110
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 110
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 114
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 115
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 115
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 119
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 114
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 115
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 115
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 114
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "青岛版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 142
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 127
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 146
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 147
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 130
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 139
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 146
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 150
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 123
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 128
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 145
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 146
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "青岛版（五四制）",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 131
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 120
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 122
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 115
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 120
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 127
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 135
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 126
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 126
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 123
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "小学英语",
+    "children": [
+      {
+        "type": "directory",
+        "name": "人教版PEP三年级起点主编吴欣",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 86
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 87
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 87
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 78
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "人教版一年级起点主编吴欣",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 78
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 71
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 94
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 92
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 71
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 100
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 102
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 91
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "人教版精通三年级起点主编郝建平",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 74
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "冀教版一年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 71
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 74
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 75
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 74
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "冀教版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 96
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 95
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 95
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 95
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 84
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 84
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "北京版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 80
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 80
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 92
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 92
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 94
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 69
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 92
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 92
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "北师大版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 91
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 81
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 93
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 92
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 94
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 76
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "外研社版（一年级起点）主编陈琳",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 91
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 91
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 91
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 91
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "外研社版（三年级起点）主编刘兆义",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 91
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "外研社版（三年级起点）主编桂诗春",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "外研社版（三年级起点）主编陈琳",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 91
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 99
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "川教版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 85
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 84
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 81
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 80
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "接力社版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 79
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 79
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 75
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 75
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 71
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 75
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 75
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "教科版主编龚亚夫+鲁宗干",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 80
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "教科版（ECC学院）",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 86
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 86
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 86
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 86
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 85
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 84
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "沪教版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 74
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 72
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 106
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 102
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 106
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 105
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 80
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 78
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "清华大学版一年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 80
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 83
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "湘少版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "科普版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 90
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "粤教粤人版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 78
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 77
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 86
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "译林版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 74
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 74
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 106
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 106
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 106
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 106
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 73
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 73
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "辽师大版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 97
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "重庆大学版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 89
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "闽教版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 46
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 44
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 44
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 45
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 44
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 45
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 44
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 44
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "陕旅版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 86
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 88
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 86
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "鲁教湘教版三年级起点",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 82
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      },
+      {
+        "type": "directory",
+        "name": "鲁科版（五四制）",
+        "children": [
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 75
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 70
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 106
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 98
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 104
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 94
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "directory",
+    "name": "小学语文",
+    "children": [
+      {
+        "type": "directory",
+        "name": "部编版",
+        "children": [
+          {
+            "type": "directory",
+            "name": "一年级上册",
+            "children": {
+              "type": "directory",
+              "name": "一年级上册",
+              "max_page_number": 127
+            }
+          },
+          { "type": "file", "name": "一年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "一年级下册",
+            "children": {
+              "type": "directory",
+              "name": "一年级下册",
+              "max_page_number": 131
+            }
+          },
+          { "type": "file", "name": "一年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级上册",
+            "children": {
+              "type": "directory",
+              "name": "三年级上册",
+              "max_page_number": 130
+            }
+          },
+          { "type": "file", "name": "三年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "三年级下册",
+            "children": {
+              "type": "directory",
+              "name": "三年级下册",
+              "max_page_number": 130
+            }
+          },
+          { "type": "file", "name": "三年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级上册",
+            "children": {
+              "type": "directory",
+              "name": "二年级上册",
+              "max_page_number": 127
+            }
+          },
+          { "type": "file", "name": "二年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "二年级下册",
+            "children": {
+              "type": "directory",
+              "name": "二年级下册",
+              "max_page_number": 131
+            }
+          },
+          { "type": "file", "name": "二年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级上册",
+            "children": {
+              "type": "directory",
+              "name": "五年级上册",
+              "max_page_number": 133
+            }
+          },
+          { "type": "file", "name": "五年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "五年级下册",
+            "children": {
+              "type": "directory",
+              "name": "五年级下册",
+              "max_page_number": 131
+            }
+          },
+          { "type": "file", "name": "五年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级上册",
+            "children": {
+              "type": "directory",
+              "name": "六年级上册",
+              "max_page_number": 142
+            }
+          },
+          { "type": "file", "name": "六年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "六年级下册",
+            "children": {
+              "type": "directory",
+              "name": "六年级下册",
+              "max_page_number": 130
+            }
+          },
+          { "type": "file", "name": "六年级下册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级上册",
+            "children": {
+              "type": "directory",
+              "name": "四年级上册",
+              "max_page_number": 138
+            }
+          },
+          { "type": "file", "name": "四年级上册.pdf" },
+          {
+            "type": "directory",
+            "name": "四年级下册",
+            "children": {
+              "type": "directory",
+              "name": "四年级下册",
+              "max_page_number": 151
+            }
+          },
+          { "type": "file", "name": "四年级下册.pdf" }
+        ]
+      }
+    ]
+  },
+  { "type": "file", "name": "用法.txt" }
+]
