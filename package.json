@@ -12,6 +12,7 @@
     "core-js": "^3.8.3",
     "jenesius-vue-modal": "^1.11.1",
     "pdfjs-dist": "^4.1.392",
+    "screenfull": "^6.0.2",
     "vue": "^3.2.13"
   },
   "devDependencies": {
@@ -24,7 +25,8 @@
     "amfe-flexible": "^2.2.1",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "postcss-pxtorem": "^6.1.0"
+    "postcss-pxtorem": "^6.1.0",
+    "query-string": "^9.0.0"
   },
   "eslintConfig": {
     "root": true,
