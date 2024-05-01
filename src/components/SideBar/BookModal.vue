@@ -37,7 +37,7 @@ function handleChooseVersion(version) {
 	position: fixed;
 	padding-left: 20px;
 	margin: 0;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ function handleChooseVersion(version) {
 	padding-left: 20px;
 	margin: 30px 0 0 0;
 	list-style: none;
-	font-size: 18px;
+	font-size: 16px;
 	color: #878787;
 	overflow-y: auto;
 }

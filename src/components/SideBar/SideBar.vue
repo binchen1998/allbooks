@@ -141,7 +141,7 @@ defineExpose({
 
 .sidebar_top_title {
   margin-left: 15px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 14px;
   color: #878787;
@@ -156,7 +156,7 @@ defineExpose({
   padding: 0 10px;
   margin: 0;
   list-style: none;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 45px;
   color: #7f7f7f;
 }

@@ -240,7 +240,7 @@ defineExpose({
 
 .mainbody_top_title,
 .mainbody_top_page span {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 45px;
     color: #7f7f7f;
 }
@@ -258,7 +258,7 @@ defineExpose({
     border: none;
     border-radius: 15px;
     background-color: #ffffff;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     color: #7f7f7f;
 }
@@ -269,7 +269,7 @@ defineExpose({
     border: none;
     background-color: #f9be17;
     border-radius: 15px;
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     cursor: pointer;
 }
@@ -316,7 +316,7 @@ defineExpose({
 
 .mainbody_actions_icon_wrapper2 {
     position: absolute;
-    bottom: 16px;
+    top: 16px;
     right: 20px;
     display: flex;
     align-items: center;
@@ -336,6 +336,6 @@ defineExpose({
 }
 
 .mainbody_actions_icon_wrapper2 span {
-    font-size: 18px;
+    font-size: 16px;
 }
 </style>
