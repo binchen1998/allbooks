@@ -98,6 +98,9 @@ function setVersion(version) {
 // 在左侧菜单栏中点击选择教材
 function handleBook(book, idx) {
   selectedIdx.value = idx;
+  // 清理之前展示的教材内容
+  props.clearBook();
+  // 重新选择教材
   props.chooseBook(bookVersion, book);
 }
 

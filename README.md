@@ -6,11 +6,17 @@ yarn install
 ```
 
 ### Compiles and hot-reloads for development
+!!注意
+请讲代码中获取json文件的连接地址改为：
+/test/dir_tree.json
 ```
 yarn serve
 ```
 
 ### Compiles and minifies for production
+!!注意
+请讲代码中获取json文件的连接地址改为：
+https://www.coding61.com/qimeng/小学教材/dir_tree.json
 ```
 yarn build
 ```

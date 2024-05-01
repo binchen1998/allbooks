@@ -1,6 +1,8 @@
 const { defineConfig } = require("@vue/cli-service");
+
 module.exports = defineConfig({
   transpileDependencies: true,
+  productionSourceMap: false, // 生产模式不打包map文件
   css: {
     loaderOptions: {
       postcss: {

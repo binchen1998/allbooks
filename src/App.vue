@@ -24,7 +24,9 @@ const barRef = ref(null); // 侧边栏引用
 const mainRef = ref(null); // 阅读器组件引用
 
 onMounted(() => {
-  fetch('/json/dir_tree.json').then(resp => resp.json())
+  // serve: /test/dir_tree.json
+  // build: https://www.coding61.com/qimeng/小学教材/dir_tree.json
+  fetch('https://www.coding61.com/qimeng/小学教材/dir_tree.json').then(resp => resp.json())
     .then(res => {
       for (let obj of res) {
         if (obj.type === "directory" && obj.name === subject.value) {
@@ -47,8 +49,9 @@ onUnmounted(() => {
 // 获取缓存数据
 function getBookCache() {
   const bookData = getLocalStorage('bookCache');
-  // 无缓存，或缓存数据与跳转链接上的type参数不匹配，则展示弹窗，选择教材版本
-  if (!bookData || bookData.subject !== subject.value) {
+  // 无缓存，或缓存数据与跳转链接上的type参数不匹配，且校验数据正确性
+  // 若残缺，则展示弹窗，选择教材版本
+  if (!validBookCache(bookData)) {
     nextTick(() => {
       barRef.value.handleChooseBook();
     });
@@ -57,6 +60,22 @@ function getBookCache() {
   // 有缓存数据且与跳转链接上的type参数匹配，则展示缓存教材内容
   handleChooseBook(bookData.version, bookData.book);
   barRef.value.setVersion(bookData.version);
+}
+
+// 校验缓存数据可用性
+function validBookCache(bookData) {
+  let isUsable = true;
+  if (!bookData) {  // 缓存数据不存在
+    isUsable = false;
+  } else if (bookData.subject !== subject.value) { // 缓存subject与当前subject不相等
+    isUsable = false;
+  } else if (!bookData.version) { // 缓存版本信息不存在
+    isUsable = false;
+  } else if (!(bookData.book && bookData.book.name && bookData.book.children)) { // 缓存book数据不存在或关键字段缺失
+    isUsable = false;
+  }
+  // 返回教育结果
+  return isUsable;
 }
 
 // 设置缓存
