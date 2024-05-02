@@ -64,11 +64,11 @@ onMounted(() => {
     getNowPageCache(); // 获取缓存
     // 绑定数据存储事件
     window.addEventListener('beforeunload', setNowPageCache);
+    nowContainer = normalContainer = getCanvasContainerInfo('renderWrapper');
+    console.log('onMounted:', nowContainer)
     // 全屏事件切换绑定
     if (screenfull.isEnabled) {
         screenfull.on('change', handleFullScreenChange);
-        nowContainer = normalContainer = getCanvasContainerInfo('renderWrapper');
-        console.log('onMounted:', nowContainer)
     }
 });
 

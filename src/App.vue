@@ -143,7 +143,7 @@ body {
 
 #bar {
   flex: 0 1 auto;
-  width: 210px;
+  min-width: 210px;
   overflow: hidden;
 }
 
