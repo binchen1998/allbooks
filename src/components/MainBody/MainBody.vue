@@ -63,7 +63,7 @@ const bookTitle = computed(() => {
 onMounted(() => {
     getNowPageCache(); // 获取缓存
     // 绑定数据存储事件
-    window.addEventListener('beforeunload', setNowPageCache);
+    window.addEventListener('unload', setNowPageCache);
     nowContainer = normalContainer = getCanvasContainerInfo('renderWrapper');
     console.log('onMounted:', nowContainer)
     // 全屏事件切换绑定
@@ -74,7 +74,7 @@ onMounted(() => {
 
 onUnmounted(() => {
     // 解绑数据存储事件
-    window.removeEventListener('beforeunload', setNowPageCache);
+    window.removeEventListener('unload', setNowPageCache);
     // 全屏事件切换解绑
     if (screenfull.isEnabled) {
         screenfull.off('change', handleFullScreenChange);
@@ -83,13 +83,13 @@ onUnmounted(() => {
 
 // 获取年级选中缓存数据
 function getNowPageCache() {
-    const page = getLocalStorage('nowPage') || 1;
+    const page = getLocalStorage('now_page') || 1;
     nowPage.value = page;
 }
 
 // 设置年级选中缓存数据
 function setNowPageCache() {
-    setLocalStorage('nowPage', nowPage.value);
+    setLocalStorage('now_page', nowPage.value);
 }
 
 // 渲染教材内容

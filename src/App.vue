@@ -38,17 +38,17 @@ onMounted(() => {
     });
 
   // 绑定数据存储事件
-  window.addEventListener('beforeunload', setBookCache);
+  window.addEventListener('unload', setBookCache);
 });
 
 onUnmounted(() => {
   // 解绑数据存储事件
-  window.removeEventListener('beforeunload', setBookCache);
+  window.removeEventListener('unload', setBookCache);
 });
 
 // 获取缓存数据
 function getBookCache() {
-  const bookData = getLocalStorage('bookCache');
+  const bookData = getLocalStorage('book_cache');
   // 无缓存，或缓存数据与跳转链接上的type参数不匹配，且校验数据正确性
   // 若残缺，则展示弹窗，选择教材版本
   if (!validBookCache(bookData)) {
@@ -87,7 +87,7 @@ function setBookCache() {
     version: version.value,
     book: book.value,
   };
-  setLocalStorage('bookCache', bookData);
+  setLocalStorage('book_cache', bookData);
 }
 
 

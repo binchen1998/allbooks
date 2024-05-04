@@ -43,23 +43,23 @@ const versionList = computed(() => {
 onMounted(() => {
   getSelectIdxCache();
   // 绑定数据存储事件
-  window.addEventListener('beforeunload', setSelectIdxCache);
+  window.addEventListener('unload', setSelectIdxCache);
 });
 
 onUnmounted(() => {
   // 解绑数据存储事件
-  window.removeEventListener('beforeunload', setSelectIdxCache);
+  window.removeEventListener('unload', setSelectIdxCache);
 });
 
 // 获取年级选中缓存数据
 function getSelectIdxCache() {
-  const selectIdx = getLocalStorage('selectIdx');
+  const selectIdx = getLocalStorage('select_index');
   selectedIdx.value = selectIdx;
 }
 
 // 设置年级选中缓存数据
 function setSelectIdxCache() {
-  setLocalStorage('selectIdx', selectedIdx.value);
+  setLocalStorage('select_index', selectedIdx.value);
 }
 
 // 点击选择教材，弹出弹框
