@@ -23,8 +23,15 @@ module.exports = defineConfig({
     },
   },
   chainWebpack: (config) => {
+    // 页面标题
     config.plugin("html").tap((args) => {
       args[0].title = "在线电子课本";
+      return args;
+    });
+    // 处理console.log和debugger
+    config.optimization.minimizer('terser').tap(args => {
+      args[0].terserOptions.compress.drop_console = true;
+      args[0].terserOptions.compress.drop_debugger = true;
       return args;
     });
   },

@@ -13,7 +13,7 @@ import SideBar from './components/SideBar/SideBar.vue';
 import MainBody from './components/MainBody/MainBody.vue';
 import { container as WidgetContainerModal } from "jenesius-vue-modal";
 import qs from 'query-string';
-import { setLocalStorage, getLocalStorage } from './utils';
+import { getJsonUrl, setLocalStorage, getLocalStorage } from './utils';
 
 const searchObj = qs.parse(location.search); // 从链接获取参数对象
 const subject = ref(searchObj.type || '小学数学'); // 从链接中获取学科
@@ -24,9 +24,8 @@ const barRef = ref(null); // 侧边栏引用
 const mainRef = ref(null); // 阅读器组件引用
 
 onMounted(() => {
-  // serve: /test/dir_tree.json
-  // build: https://www.coding61.com/qimeng/小学教材/dir_tree.json
-  fetch('https://www.coding61.com/qimeng/小学教材/dir_tree.json').then(resp => resp.json())
+  const jsonUrl = getJsonUrl();
+  fetch(jsonUrl).then(resp => resp.json())
     .then(res => {
       for (let obj of res) {
         if (obj.type === "directory" && obj.name === subject.value) {

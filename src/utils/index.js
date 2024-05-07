@@ -1,3 +1,15 @@
+// 获取json文件链接
+export function getJsonUrl() {
+  // serve: /json/dir_tree.json
+  // build: https://www.coding61.com/qimeng/小学教材/dir_tree.json
+  let jsonUrl = "https://www.coding61.com/qimeng/小学教材/dir_tree.json";
+  const env = process.env.NODE_ENV;
+  if (env === "development") {
+    jsonUrl = "/json/dir_tree.json";
+  }
+  return jsonUrl;
+}
+
 // 设置缓存
 export function setLocalStorage(key, value) {
   try {

@@ -37,7 +37,7 @@ See [Vue3+pdfjs-dist实现PDF文件展示](https://blog.csdn.net/gurenchang/arti
 `
 
 ## Modal
-See [Jenesius vue-modal] (https://modal.jenesius.com/guide/getting-started.html)
+See [Jenesius vue-modal](https://modal.jenesius.com/guide/getting-started.html)
 
 
 ## 教材资源图片格式
@@ -50,3 +50,6 @@ See [Jenesius vue-modal] (https://modal.jenesius.com/guide/getting-started.html)
 
 ## screenfull
 See [vue全屏插件screenfull的使用](https://www.jianshu.com/p/16ef06d03299)
+
+## debug
+See [如何在iPhone Safari上调试网页](https://blog.csdn.net/cn_chris/article/details/134847676)
