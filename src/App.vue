@@ -113,16 +113,20 @@ function handleClearBook() {
 body {
   padding: auto;
   margin: auto;
+  height: 100vh;
 }
 
 #app {
-  max-width: 1400px;
-  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
 
 #content {
+  flex: 1 0 auto;
   display: flex;
-  margin: 30px;
+  height: 100%;
   border-radius: 10px;
   background-color: #ffffff;
   overflow: scroll;
@@ -143,7 +147,7 @@ body {
 #bar {
   flex: 0 1 auto;
   min-width: 210px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #main {

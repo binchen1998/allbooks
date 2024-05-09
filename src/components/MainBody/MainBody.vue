@@ -18,7 +18,13 @@
             <div class="mainbody_actions_icon_wrapper" @click="showNextPage">
                 <Right class="mainbody_actions_icon" />
             </div>
-            <div class="mainbody_actions_icon_wrapper2" @click="toggleFullScreen">
+            <div v-if="isEnglish" class="mainbody_actions_icon_wrapper2" @click="handleClickLearn">
+                <div>
+                    <Microphone class="mainbody_actions_icon" />
+                </div>
+                <span>点读</span>
+            </div>
+            <div class="mainbody_actions_icon_wrapper3" @click="toggleFullScreen">
                 <div>
                     <FullScreen class="mainbody_actions_icon" />
                 </div>
@@ -30,8 +36,10 @@
 
 <script setup>
 import { ref, defineProps, defineExpose, computed, onMounted, onUnmounted } from 'vue';
-import { Back, Right, FullScreen } from '@element-plus/icons-vue';
+import { Back, Right, Microphone, FullScreen } from '@element-plus/icons-vue';
 import screenfull from 'screenfull';
+import { openModal } from 'jenesius-vue-modal';
+import OCRifram from './OCRifram.vue';
 import { loadImage, setLocalStorage, getLocalStorage } from '../../utils';
 
 const props = defineProps(['subject', 'version', 'book']);
@@ -39,6 +47,7 @@ const nowPage = ref(1); // 当前展示页码
 const fullContainer = ref(null); // 需要全屏展示的元素
 const isFullScreen = ref(false); // 全屏展示文案
 const basicUrl = 'https://www.coding61.com/qimeng/小学教材'; // 图片基础链接
+const imgUrl = ref('');
 let pageIsRendering = false; // 图片是否加载中
 let nowImg = null; // 当前图片
 // 非全局模式下，以renderWrapper为容器，全局模式下，以fullContainer为容器
@@ -49,7 +58,7 @@ let isFirstFull = true; // 是否第一次打开全屏
 // 总页码
 const totalPage = computed(() => {
     const book = props.book;
-    const allPage = book.value?.children.max_page_number || 1;
+    const allPage = book.value?.children?.max_page_number || 1;
     return allPage;
 });
 // 教材名
@@ -58,14 +67,16 @@ const bookTitle = computed(() => {
     const bookName = book.value?.name || '未选择教材';
     return bookName;
 });
-
+// 当前学科是否为英语
+const isEnglish = computed(() => {
+    return props.subject.indexOf('英语') > -1;
+});
 
 onMounted(() => {
     getNowPageCache(); // 获取缓存
     // 绑定数据存储事件
     window.addEventListener('unload', setNowPageCache);
     nowContainer = normalContainer = getCanvasContainerInfo('renderWrapper');
-    console.log('onMounted:', nowContainer)
     // 全屏事件切换绑定
     if (screenfull.isEnabled) {
         screenfull.on('change', handleFullScreenChange);
@@ -99,11 +110,12 @@ function renderBook() {
     pageIsRendering = true;
     const { subject, version, book } = props;
     const picUrl = basicUrl + `/${subject}/${version}/${book.value.name}/page_${nowPage.value}.jpg`;
+    imgUrl.value = picUrl;
     console.log('picUrl:', picUrl)
     loadImage(picUrl)
         .then((image) => {
             nowImg = image;
-            console.log('loadImage:', nowContainer);
+            console.log('in loadImage:', nowContainer);
             setCanvas(image, nowContainer.width, nowContainer.height);
             pageIsRendering = false;
         });
@@ -125,23 +137,17 @@ function setCanvas(image, containerWidth, containerHeight) {
     const ctx = canvas.getContext('2d');
     const imgWidth = image.width; // 图片宽度
     const imgHeight = image.height; // 图片高度
-    const pHRatio = imgHeight / imgWidth; // 图片高宽比
-    const pWRatio = imgWidth / imgHeight; // 图片宽高比
+    const cRatio = containerWidth / containerHeight; // 容器宽高比
+    const pRatio = imgWidth / imgHeight; // 图片宽高比
     let cWidth, cHeight; // canvas的宽高
-    // 判断图片的宽高和容器宽高的大小
-    // 如果pHRatio>=1，则以高度为准；如果pWRatio>1，则以宽度为准
-    if (pHRatio >= 1) {
-        // 图片高或宽高相等
-        // 以图片高度为准
-        const ratio = containerHeight / imgHeight;
-        cWidth = imgWidth * ratio;
-        cHeight = containerHeight;
-    } else if (pWRatio > 1) {
-        // 图片长
-        // 以图片宽度为准
-        const ratio = containerWidth / imgWidth;
-        cWidth = containerWidth;
-        cHeight = imgHeight * ratio;
+
+    // 按照画布的宽高比例调整图片尺寸
+    if (pRatio > cRatio) {
+        cWidth = containerWidth; // 以容器高度为准
+        cHeight = cWidth / pRatio;
+    } else {
+        cHeight = containerHeight; // 以容器宽度为准
+        cWidth = cHeight * pRatio;
     }
 
     // 设置canvas绘制2倍图，画面更清晰
@@ -150,8 +156,6 @@ function setCanvas(image, containerWidth, containerHeight) {
     canvas.style.width = cWidth + 'px';
     canvas.style.height = cHeight + 'px';
 
-    console.log('setCanvas:', cWidth)
-
     // 将图片绘制到画布上
     ctx.drawImage(image, 0, 0, imgWidth, imgHeight, 0, 0, canvas.width, canvas.height);
 }
@@ -159,8 +163,8 @@ function setCanvas(image, containerWidth, containerHeight) {
 // 获取画布容器的宽高
 function getCanvasContainerInfo(containerEle) {
     const canvasWrapper = document.getElementById(containerEle);
-    const width = canvasWrapper.offsetWidth; //容器的宽度
-    const height = canvasWrapper.offsetHeight; //容器的高度
+    const width = canvasWrapper.clientWidth; //容器的宽度
+    const height = canvasWrapper.clientHeight; //容器的高度
     return {
         width,
         height,
@@ -197,6 +201,13 @@ function showNextPage() {
     }
     nowPage.value++;
     renderBook();
+}
+
+// 打开点读功能弹窗
+function handleClickLearn() {
+    openModal(OCRifram, {
+        imgUrl,
+    });
 }
 
 // 全屏展示
@@ -279,6 +290,7 @@ defineExpose({
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height: calc(100% - 50px);
     border-radius: 10px;
     background-color: #fff;
 }
@@ -287,7 +299,8 @@ defineExpose({
     flex: 1 0 auto;
     display: flex;
     justify-content: center;
-    min-height: 630px;
+    align-items: center;
+    height: 100%;
 }
 
 .mainbody_bottom_canvas canvas {
@@ -317,6 +330,21 @@ defineExpose({
 .mainbody_actions_icon_wrapper2 {
     position: absolute;
     top: 16px;
+    right: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    height: 45px;
+    background-color: #f9be17;
+    border-radius: 23px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mainbody_actions_icon_wrapper3 {
+    position: absolute;
+    top: 16px;
     right: 20px;
     display: flex;
     align-items: center;
@@ -329,13 +357,15 @@ defineExpose({
     cursor: pointer;
 }
 
-.mainbody_actions_icon_wrapper2 div {
+.mainbody_actions_icon_wrapper2 div,
+.mainbody_actions_icon_wrapper3 div {
     height: 30px;
     margin-right: 8px;
     line-height: 30px;
 }
 
-.mainbody_actions_icon_wrapper2 span {
+.mainbody_actions_icon_wrapper2 span,
+.mainbody_actions_icon_wrapper3 span {
     font-size: 16px;
 }
 </style>

@@ -41,3 +41,15 @@ export function loadImage(url) {
     image.src = url;
   });
 }
+
+// 截取字符串
+export function splitString(str, sign) {
+  const lastIndex = str.lastIndexOf(sign);
+  if (lastIndex === -1) {
+    return ["", str];
+  } else {
+    const firstPart = str.substring(0, lastIndex);
+    const secondPart = str.substring(lastIndex + 1);
+    return [firstPart, secondPart];
+  }
+}

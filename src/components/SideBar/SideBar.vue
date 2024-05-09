@@ -148,8 +148,8 @@ defineExpose({
 }
 
 .sidebar_bottom {
-  max-height: 620px;
-  overflow: auto;
+  /* max-height: 620px;
+  overflow: auto; */
 }
 
 .sidebar_bottom ul {

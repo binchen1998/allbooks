@@ -14,7 +14,7 @@ module.exports = defineConfig({
           plugins: [
             require("postcss-pxtorem")({
               // 把px单位换算成rem
-              rootValue: 128, // html默认字体大小16px
+              rootValue: 128,
               propList: ["*"],
             }),
           ],
