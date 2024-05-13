@@ -24,7 +24,7 @@
                 </div>
                 <span>点读</span>
             </div>
-            <div class="mainbody_actions_icon_wrapper3" @click="toggleFullScreen">
+            <div class="mainbody_actions_icon_wrapper3" @click="handleClickFullScreen">
                 <div>
                     <FullScreen class="mainbody_actions_icon" />
                 </div>
@@ -37,9 +37,9 @@
 <script setup>
 import { ref, defineProps, defineExpose, computed, onMounted, onUnmounted } from 'vue';
 import { Back, Right, Microphone, FullScreen } from '@element-plus/icons-vue';
-import screenfull from 'screenfull';
 import { openModal } from 'jenesius-vue-modal';
 import OCRifram from './OCRifram.vue';
+import Fullscreen from './FullScreen.vue';
 import { loadImage, setLocalStorage, getLocalStorage } from '../../utils';
 
 const props = defineProps(['subject', 'version', 'book']);
@@ -49,12 +49,7 @@ const isFullScreen = ref(false); // 全屏展示文案
 const basicUrl = 'https://www.coding61.com/qimeng/小学教材'; // 图片基础链接
 const imgUrl = ref('');
 let pageIsRendering = false; // 图片是否加载中
-let nowImg = null; // 当前图片
-// 非全局模式下，以renderWrapper为容器，全局模式下，以fullContainer为容器
-let normalContainer = null;
-let fullScreenContainer = null;
 let nowContainer = null; // 当前模式下的容器
-let isFirstFull = true; // 是否第一次打开全屏
 // 总页码
 const totalPage = computed(() => {
     const book = props.book;
@@ -76,20 +71,12 @@ onMounted(() => {
     getNowPageCache(); // 获取缓存
     // 绑定数据存储事件
     window.addEventListener('unload', setNowPageCache);
-    nowContainer = normalContainer = getCanvasContainerInfo('renderWrapper');
-    // 全屏事件切换绑定
-    if (screenfull.isEnabled) {
-        screenfull.on('change', handleFullScreenChange);
-    }
+    nowContainer = getCanvasContainerInfo('renderWrapper');
 });
 
 onUnmounted(() => {
     // 解绑数据存储事件
     window.removeEventListener('unload', setNowPageCache);
-    // 全屏事件切换解绑
-    if (screenfull.isEnabled) {
-        screenfull.off('change', handleFullScreenChange);
-    }
 });
 
 // 获取年级选中缓存数据
@@ -114,7 +101,6 @@ function renderBook() {
     console.log('picUrl:', picUrl)
     loadImage(picUrl)
         .then((image) => {
-            nowImg = image;
             console.log('in loadImage:', nowContainer);
             setCanvas(image, nowContainer.width, nowContainer.height);
             pageIsRendering = false;
@@ -210,30 +196,11 @@ function handleClickLearn() {
     });
 }
 
-// 全屏展示
-function toggleFullScreen() {
-    if (!screenfull.isEnabled) {
-        alert('出错了！无法打开全屏模式o(╥﹏╥)o');
-        return;
-    }
-    screenfull.toggle(fullContainer.value);
-}
-
-// 全屏事件监听
-function handleFullScreenChange() {
-    // 只在第一次打开时，获取全屏时fullScreenContainer
-    if (screenfull.isFullscreen && isFirstFull) {
-        isFirstFull = false;
-        fullScreenContainer = getCanvasContainerInfo('fullContainer');
-    }
-    if (screenfull.isFullscreen) {
-        isFullScreen.value = true;
-        nowContainer = fullScreenContainer;
-    } else {
-        isFullScreen.value = false;
-        nowContainer = normalContainer;
-    }
-    setCanvas(nowImg, nowContainer.width, nowContainer.height);
+// 打开全屏功能弹窗
+function handleClickFullScreen() {
+    openModal(Fullscreen, {
+        imgUrl,
+    });
 }
 
 defineExpose({
