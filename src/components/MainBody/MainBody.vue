@@ -22,7 +22,15 @@
                 <div>
                     <Microphone class="mainbody_actions_icon" />
                 </div>
-                <span>点读</span>
+                <span>文本点读</span>
+            </div>
+            <div v-if="isMath" class="mainbody_actions_icon_wrapper2" @click="handleClickLearn">
+                <div>
+                    <div class="mainbody_actions_icon">
+                        <img src="../../assets/AI.svg" />
+                    </div>
+                </div>
+                <span>A I 导读</span>
             </div>
             <div class="mainbody_actions_icon_wrapper3" @click="handleClickFullScreen">
                 <div>
@@ -38,8 +46,9 @@
 import { ref, defineProps, defineExpose, computed, onMounted, onUnmounted } from 'vue';
 import { Back, Right, Microphone, FullScreen } from '@element-plus/icons-vue';
 import { openModal } from 'jenesius-vue-modal';
-import OCRifram from './OCRifram.vue';
 import Fullscreen from './FullScreen.vue';
+import OCRiframe from './OCRiframe.vue';
+import AIiframe from './AIiframe.vue';
 import { loadImage, setLocalStorage, getLocalStorage } from '../../utils';
 
 const props = defineProps(['subject', 'version', 'book']);
@@ -65,6 +74,10 @@ const bookTitle = computed(() => {
 // 当前学科是否为英语
 const isEnglish = computed(() => {
     return props.subject.indexOf('英语') > -1;
+});
+// 当前学科是否为数学
+const isMath = computed(() => {
+    return props.subject.indexOf('数学') > -1;
 });
 
 onMounted(() => {
@@ -191,9 +204,15 @@ function showNextPage() {
 
 // 打开点读功能弹窗
 function handleClickLearn() {
-    openModal(OCRifram, {
-        imgUrl,
-    });
+    if (isEnglish.value) {
+        openModal(OCRiframe, {
+            imgUrl,
+        });
+    } else if (isMath.value) {
+        openModal(AIiframe, {
+            imgUrl,
+        });
+    }
 }
 
 // 打开全屏功能弹窗
@@ -288,20 +307,14 @@ defineExpose({
     cursor: pointer;
 }
 
-.mainbody_actions_icon {
-    flex: 1 0 auto;
-    width: 30px;
-    height: 30px;
-}
-
 .mainbody_actions_icon_wrapper2 {
     position: absolute;
-    top: 16px;
-    right: 170px;
+    bottom: 76px;
+    right: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 110px;
+    width: 136px;
     height: 45px;
     background-color: #f9be17;
     border-radius: 23px;
@@ -311,7 +324,7 @@ defineExpose({
 
 .mainbody_actions_icon_wrapper3 {
     position: absolute;
-    top: 16px;
+    bottom: 16px;
     right: 20px;
     display: flex;
     align-items: center;
@@ -334,5 +347,16 @@ defineExpose({
 .mainbody_actions_icon_wrapper2 span,
 .mainbody_actions_icon_wrapper3 span {
     font-size: 16px;
+}
+
+.mainbody_actions_icon {
+    flex: 1 0 auto;
+    width: 30px;
+    height: 30px;
+}
+
+.mainbody_actions_icon img {
+    width: 100%;
+    height: 100%;
 }
 </style>
