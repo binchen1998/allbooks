@@ -12,6 +12,7 @@
 <script setup>
 import { defineProps, computed } from 'vue';
 import { closeModal } from 'jenesius-vue-modal';
+import qs from 'query-string';
 import { Close } from '@element-plus/icons-vue';
 
 const props = defineProps(['imgUrl']); // 从父组件传值
@@ -19,7 +20,9 @@ const props = defineProps(['imgUrl']); // 从父组件传值
 const AIHtmlUrl = computed(() => {
     const baseUrl = 'https://www.coding61.com/html/ai/index.html';
     const imgUrl = props.imgUrl;
-    const htmlUrl = `${baseUrl}?image=${imgUrl}`;
+    const searchObj = qs.parse(location.search); // 从链接获取参数对象
+    const token  = searchObj.token; // 获取链接上的token参数
+    const htmlUrl = `${baseUrl}?image=${imgUrl}&token=${token}`;
     console.log('htmlUrl:', htmlUrl);
     return htmlUrl;
 });

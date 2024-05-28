@@ -30,7 +30,7 @@
                         <img src="../../assets/AI.svg" />
                     </div>
                 </div>
-                <span>A I 导读</span>
+                <span>A I 讲题</span>
             </div>
             <div class="mainbody_actions_icon_wrapper3" @click="handleClickFullScreen">
                 <div>
