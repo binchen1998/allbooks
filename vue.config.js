@@ -33,16 +33,7 @@ module.exports = defineConfig({
           ...options,
           presets: [
             ['@babel/preset-env', {
-              targets: {
-                browsers: [
-                  // 指定你想要支持的浏览器版本
-                  // 例如，为了支持到IE 11，可以使用：
-                  'ie 11',
-                  'last 2 versions',
-                  '> 1%',
-                  'not dead'
-                ],
-              },
+              targets: '> 0.25%, not dead',
               // 使用'usage'模式来按需引入polyfill
               useBuiltIns: 'usage',
               // 指定core-js版本
